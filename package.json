@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/victoralmeidadev/clean-react/issues"
   },
-  "homepage": "https://github.com/victoralmeidadev/clean-react#readme"
+  "homepage": "https://github.com/victoralmeidadev/clean-react#readme",
+  "devDependencies": {
+    "git-commit-msg-linter": "^3.1.0"
+  }
 }
