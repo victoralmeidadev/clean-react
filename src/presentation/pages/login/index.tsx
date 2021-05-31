@@ -1,12 +1,13 @@
 import React from "react";
 import Styles from "./login-styles.scss";
 import Spinner from "@/presentation/components/Spinner";
+import Logo from "@/presentation/components/Logo";
 
 const Login: React.FC = () => {
   return (
     <div className={Styles.login}>
       <header className={Styles.header}>
-        <img src="https://logodownload.org/wp-content/uploads/2014/09/google-logo-1-1.png" />
+        <Logo />
         <h1>4Dev Enquetes para Programadores</h1>
       </header>
       <form className={Styles.form}>
